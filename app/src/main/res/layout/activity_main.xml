@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:id="@+id/linierlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="69dp"
+            android:layout_alignTop="@+id/linierlayout"
+            android:src="@drawable/jenius1" />
+
+        <ImageView
+            android:layout_width="381dp"
+            android:layout_height="236dp"
+            android:layout_alignTop="@+id/linierlayout"
+            android:layout_alignBottom="@+id/linierlayout"
+            android:scaleType="fitXY"
+            android:src="@drawable/bglayar" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/input_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Experience Banking Reinvented"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sekarang kamu bisa atur semua transaksi, tabungan,dan kartu debit di smartphone"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="238dp"
+            android:layout_height="15dp"
+            android:layout_alignTop="@+id/linierlayout"
+            android:scaleType="fitXY"
+            android:src="@drawable/garis" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="REGISTER"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SAYA SUDAH PUNYA AKUN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="version 2.28.1(7447)"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
